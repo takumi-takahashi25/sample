@@ -201,7 +201,9 @@ a:visited {
   transform: rotate(45deg);
   margin-left: 5%;
 }
-
+header {
+  width: 100%;
+}
 /* ----------------------------------------------- */
 /* HEADER */
 
