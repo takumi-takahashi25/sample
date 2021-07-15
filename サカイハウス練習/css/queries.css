@@ -1,0 +1,328 @@
+@media only screen and (max-width: 767px) {
+    .top-inner{
+        width: 95%;
+    }
+
+    .top-header-area{
+        padding: 1rem 0;
+        position: relative;
+        border-bottom: none;
+    }
+
+    .top-logo-area{
+        width: 16rem;
+    }
+
+    .top-header-right{
+        display: none;
+    }
+
+    .top-ham-area{
+        display: block;
+    }
+
+      /* ----- js用 ----- */
+    .js-open {
+        transform: translateX(-270px);
+        transition: transform 0.6s ease-in;
+        z-index: 10000;
+    }
+
+    .js-close {
+        transition: transform 0.6s ease-in;
+    }
+
+    .js-open-menu {
+        transform: translateX(-55%);
+    }
+
+    .js-close-menu {
+        transform: translateX(-105%);
+        transition: transform 3s ease-in;
+    }
+
+    .top-header-under{
+        display: none;
+    }
+
+    .top-background-block{
+        width: 50%;
+        height: calc(100vw / 2);
+        padding: 3rem 0;
+    }
+
+    .top-background-block-color-one,
+    .top-background-block-color-two,
+    .top-background-block-color-three,
+    .top-background-block-color-four {
+        background-position: bottom;
+    }
+
+    .top-background-button{
+        display: none;
+    }
+
+    .top-background-block-circle{
+        top: 3rem;
+    }
+
+    .top-background-block h3{
+        padding-top: 0;
+        padding-bottom: 18rem;
+        position: relative;
+        top: 4rem;
+    }
+
+    .top-button-area{
+        display: block;
+        width: 95%;
+    }
+
+    .top-button-circle {
+        justify-content: center;
+    }
+
+    .top-button-text {
+        width: auto;
+    }
+
+    .top-button-orange,
+    .top-button-blue,
+    .top-button-green,
+    .top-button-navy{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .top-reform-place-area {
+        flex-wrap: wrap;
+    }
+
+    .top-reform-place-area p {
+        margin: 2rem 1rem 0 0;
+    }
+
+    .top-footer-menu {
+        align-items: baseline;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .top-footer-menu ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .top-footer-menu li{
+        border-bottom: #CCCCCC solid 0.1rem;
+        position: relative;
+    }
+
+    .top-footer-icon-area {
+        margin: 0 auto;
+    }
+
+    .top-footer-menu a {
+        margin-right: 0;
+        display: block;
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    .top-footer-menu li::after{
+        content: "";
+        width: 1rem;
+        height: 1rem;
+        border-top: #CCCCCC solid 0.1rem;
+        border-right: #CCCCCC solid 0.1rem;
+        transform: rotate(45deg);
+        position: absolute;
+        top: 40%;
+        right: 2%;
+    }
+
+    .top-footer-address {
+        padding: 4rem 0 11rem;
+    }
+
+    .top-footer-navi{
+        display: flex;
+        width: 100%;
+        height: 8rem;
+        background-color: #FBA02A;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }
+
+    .top-footer-navi ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .top-footer-navi li{
+        width: 30%;
+        text-align: center;
+        position: relative;
+    }
+
+    .top-footer-navi a{
+        display: block;
+        width: 100%;
+        height: 8rem;
+        color: #ffffff;
+        font-size: 1.6rem;
+    }
+
+    .top-footer-navi span{
+        display: block;
+        width: 3.5rem;
+        height: 3.5rem;
+        background-color: #ffffff;
+        border-radius: 50%;
+        margin: 3rem auto 1rem;
+        position: relative;
+    }
+
+    .top-footer-navi-home::before,
+    .top-footer-navi-tel::before,
+    .top-footer-navi-mail::before{
+        font-family: "Font Awesome 5 Free";
+        font-size: 2rem;
+        font-weight: 900;
+        color: #FBA02A;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .top-footer-navi-home::before{
+        content: "\f015";
+    }
+
+    .top-footer-navi-tel::before{
+        content: "\f095";
+    }
+
+    .top-footer-navi-mail::before{
+        content: "\f0e0";
+    }
+
+    .top-footer-navi li:nth-child(1)::after,
+    .top-footer-navi li:nth-child(2)::after{
+        content: "";
+        background: #ffffff;
+        width: 0.1rem;
+        height: 5.5rem;
+        position: absolute;
+        top: 30%;
+        left: 106%;
+    }
+}
+
+@media only screen and (max-width: 579px) {
+
+    .top-button-blue-center {
+        width: 22rem;
+        height: 3.8rem;
+        font-size: 1.4rem;
+    }
+
+    .top-background-block {
+        padding: 0;
+    }
+
+    .top-background-block-circle {
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    .top-background-block-circle img {
+        width: 6.5rem;
+    }
+
+    .top-circle-in {
+        padding-top: 0.5rem;
+    }
+
+    .top-background-block-circle p {
+        font-size: 1.2rem;
+    }
+
+    .top-background-block h3 {
+        padding-bottom: 17rem;
+        font-size: 1.4rem;
+    }
+    .top-section-title-area {
+        flex-direction: column;
+    }
+
+    .top-section-title {
+        font-size: 2.6rem;
+    }
+
+    .top-section-subtitle {
+        font-size: 1.4rem;
+        margin: 0.5rem 0 0;
+    }
+
+    .top-news-block time {
+        font-size: 1.2rem;
+    }
+
+    .top-news-block h3 {
+        font-size: 1.4rem;
+    }
+
+    .top-recommend-flex {
+        flex-direction: column;
+    }
+
+    .top-recommend-block {
+        width: 100%;
+    }
+
+    .top-recommend-name {
+        font-size: 1.2rem;
+    }
+
+    .top-recommend-name span {
+        padding: 0.5rem 0.6rem;
+    }
+
+    .top-recommend-place {
+        font-size: 1.6rem;
+    }
+
+    .top-recommend-value {
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+    }
+
+    .top-showcase-block {
+        width: 49%;
+    }
+
+    .top-showcase-name {
+        font-size: 1.6rem;
+    }
+
+    .top-reform-block {
+        width: 48.5%;
+    }
+
+    .top-reform-orner {
+        font-size: 1.6rem;
+    }
+
+    .top-reform-place-area p {
+        font-size: 1.2rem;
+    }
+
+    .top-reform-place-area span {
+        padding: 0.5rem 0.6rem;
+    }
+}
